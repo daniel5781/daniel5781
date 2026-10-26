@@ -24,7 +24,7 @@
 
 | 프로젝트 | 문제와 접근 | 결과 | 공개 자료 |
 | --- | --- | --- | --- |
-| **세븐일레븐 재고 최적화** | 신상품 초도발주 예측·발주 수량별 재고 비교 | 예측 모델·재고 시뮬레이션·MD 대시보드 구현<br>합성 데이터 실행 예제 공개 | [소개](projects/inventory.md) · [코드](https://github.com/daniel5781/7Eleven_MD_Dashboard) |
+| **세븐일레븐 재고 최적화** | 신상품 초도발주 예측·발주 수량별 재고 비교 | 예측 모델·재고 시뮬레이션·MD 대시보드 구현 | [소개](projects/inventory.md) · [코드](https://github.com/daniel5781/7Eleven_MD_Dashboard) |
 | **LG Aimers** | 야구 경기 상황과 선수 이력을 제구 확률 예측으로 연결 | **예선 24위 · 본선 진출**<br>**본선 17위** | [소개](projects/lg-aimers.md) · 코드 비공개 |
 | **산업연관분석** | Leontief 모형과 네트워크로 산업 간 파급효과 분석 | 산업 분류 계층·BEA 자료 처리 확장 | [소개](projects/industrial-network.md) · [코드](https://github.com/daniel5781/khu-subapp) |
 
