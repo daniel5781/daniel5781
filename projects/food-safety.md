@@ -1,6 +1,6 @@
 # 황색포도상구균 검출확률 예측
 
-**현재 작업 중**
+**Active Research**
 
 **Imbalanced Classification · Feature Engineering · Temporal Validation**
 

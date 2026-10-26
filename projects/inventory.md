@@ -33,6 +33,12 @@
 대시보드는 분석 결과를 MD가 검토하고 수량을 조정하는 활용 화면입니다.
 현재 웹 데모는 독립된 합성 JSON을 사용하며 Python 모델 실행 결과를 자동 반영하지 않습니다.
 
+## 결과
+
+초도발주 예측 모델, 발주 수량별 재고 시뮬레이션과 MD 검토 대시보드를 구현했습니다.
+포트폴리오에는 [합성 데이터 모델 실행 예제](https://github.com/daniel5781/7Eleven_MD_Dashboard/tree/main/modeling)와
+[웹 데모](https://daniel5781.github.io/7Eleven_MD_Dashboard/)를 공개했습니다.
+
 ## 개인 기여
 
 | 역할 | 담당 범위 |
