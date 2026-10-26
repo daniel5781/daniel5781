@@ -4,12 +4,12 @@
 
 <p align="center">
   <b>Predictive Modeling · Temporal Validation · Decision Support</b><br />
-  데이터로 문제를 정의하고, 검증 가능한 예측을 실제 의사결정으로 연결합니다.
+  식품 안전·유통 재고·스포츠 데이터를 활용해 확률과 수량을 예측합니다.
 </p>
 
 <p align="center">
   <a href="#selected-projects">프로젝트</a> ·
-  <a href="#how-i-work">작업 방식</a> ·
+  <a href="#approach-in-practice">프로젝트별 접근</a> ·
   <a href="#toolkit">기술 스택</a>
 </p>
 
@@ -17,20 +17,23 @@
 
 | 프로젝트 | 해결하려는 문제와 접근 | 공개 자료 |
 | --- | --- | --- |
-| **산업연관분석** | Leontief 모형과 네트워크로 산업 간 상호의존성과 파급효과 분석 | [소개](projects/industrial-network.md) · [코드](https://github.com/daniel5781/khu-subapp) |
-| **세븐일레븐 재고 최적화** | 초도발주 예측 검증·재고 시뮬레이션·의사결정 대시보드 | [소개](projects/inventory.md) · [코드](https://github.com/daniel5781/7Eleven_MD_Dashboard) |
-| **LG Aimers** | 경기 상황과 선수 이력 기반 확률 예측, 앙상블과 보정 | [소개](projects/lg-aimers.md) · 코드 비공개 |
-| **황색포도상구균 검출확률 예측** | 희소 양성 데이터의 위험도 예측과 검사 우선순위 평가 | [소개](projects/food-safety.md) · 코드 비공개 |
+| **1. 황색포도상구균 검출확률 예측**<br>현재 작업 중 | 희소 양성 데이터의 위험도 예측과 검사 우선순위 평가 | [소개](projects/food-safety.md) · 코드 비공개 |
+| **2. 세븐일레븐 재고 최적화** | 초도발주 예측 검증·재고 시뮬레이션·의사결정 대시보드 | [소개](projects/inventory.md) · [코드](https://github.com/daniel5781/7Eleven_MD_Dashboard) |
+| **3. LG Aimers** | 경기 상황과 선수 이력 기반 확률 예측, 앙상블과 보정 | [소개](projects/lg-aimers.md) · 코드 비공개 |
+| **4. 산업연관분석** | Leontief 모형과 네트워크로 산업 간 상호의존성과 파급효과 분석 | [소개](projects/industrial-network.md) · [코드](https://github.com/daniel5781/khu-subapp) |
 
 프로젝트별 소개에서 담당 역할, 기술적 접근, 검증 과정과 공개 결과물을 확인할 수 있습니다.
 
-## How I Work
+## Approach in Practice
 
-**문제 정의 → 데이터 전처리 → 검증 → 의사결정 연결**
+- **희소 양성 데이터와 검사 우선순위 — [황색포도상구균](projects/food-safety.md)**<br />
+  비정기 검사 이력에서 예측 시점까지의 정보로 피처를 구성하고 있습니다. Average Precision·Recall과 검사 효율을 함께 확인하며, 희소한 양성 사례를 찾는 모델을 개선하고 있습니다.
 
-- 예측 시점에 알 수 있는 정보만 사용하고 시간에 따른 데이터 누수를 점검합니다.
-- 모델 점수와 운영 의사결정 지표를 구분해 평가합니다.
-- 채택한 실험뿐 아니라 효과가 없었던 실험과 재현 조건도 기록합니다.
+- **출고 예측과 발주 수량별 재고 비교 — [세븐일레븐](projects/inventory.md)**<br />
+  출시 후 4일간의 센터 출고량을 타깃으로 두고, 고정 발주 공식과 모델 예측을 비교했습니다. 발주 수량에 따른 과소·과다 물량과 잔여 재고를 시뮬레이션해 수량 검토에 연결했습니다.
+
+- **앙상블 추가 효과와 제출 동작 검증 — [LG Aimers](projects/lg-aimers.md)**<br />
+  CatBoost·LightGBM·FT-Transformer의 단독 성능과 앙상블에 추가했을 때의 기여를 구분해 검토했습니다. 투수 수준·좌우 매치업을 반영한 보정을 실험하고, 입력 행의 순서·구성에 따라 예측이 달라지는지도 점검했습니다.
 
 ## Toolkit
 
