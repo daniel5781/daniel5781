@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="320" viewBox="0 0 1280 320" role="img" aria-labelledby="title desc">
+  <title id="title">Daniel — Data Science &amp; Machine Learning</title>
+  <desc id="desc">From data to decisions. A navy and mint banner with connected data points.</desc>
+  <defs>
+    <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#101c32"/><stop offset="1" stop-color="#162e42"/></linearGradient>
+    <linearGradient id="accent"><stop stop-color="#64e8c1"/><stop offset="1" stop-color="#65bdf6"/></linearGradient>
+  </defs>
+  <rect width="1280" height="320" rx="24" fill="url(#bg)"/>
+  <g fill="none" stroke="#294c60" stroke-width="1">
+    <path d="M810 60H1210M810 110H1210M810 160H1210M810 210H1210M810 260H1210"/>
+    <path d="M850 40V280M930 40V280M1010 40V280M1090 40V280M1170 40V280"/>
+  </g>
+  <g stroke="url(#accent)" stroke-width="2.5" opacity=".7" fill="none">
+    <path d="M850 222L932 170L1009 203L1090 110L1170 66M850 222L930 85L1009 203L1170 66M932 170L1090 110"/>
+  </g>
+  <g fill="#75e6c9" stroke="#142b3c" stroke-width="6">
+    <circle cx="850" cy="222" r="10"/><circle cx="932" cy="170" r="11"/><circle cx="930" cy="85" r="8"/>
+    <circle cx="1009" cy="203" r="10"/><circle cx="1090" cy="110" r="13"/><circle cx="1170" cy="66" r="10"/>
+  </g>
+  <rect x="58" y="54" width="44" height="5" rx="2.5" fill="#75e6c9"/>
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif">
+    <text x="58" y="102" fill="#8de8cd" font-size="15" font-weight="600" letter-spacing="4">FROM DATA TO DECISIONS</text>
+    <text x="55" y="176" fill="#f5f8fc" font-size="66" font-weight="750" letter-spacing="-2">Daniel</text>
+    <text x="58" y="218" fill="#c8d7e5" font-size="25" font-weight="500">Data Science &amp; Machine Learning</text>
+    <text x="58" y="269" fill="#8ea9bd" font-size="16">Predictive modeling  /  Validation  /  Decision support</text>
+  </g>
+</svg>

@@ -1,93 +1,69 @@
-# Daniel | Data Science & Machine Learning
+<p align="center">
+  <img src="assets/profile-banner.svg" alt="Daniel — Data Science & Machine Learning. From data to decisions." width="100%" />
+</p>
 
-**Predictive Modeling · Data Analytics · Decision Optimization**
+<p align="center">
+  <b>Predictive Modeling · Temporal Validation · Decision Support</b><br />
+  데이터로 문제를 정의하고, 검증 가능한 예측을 실제 의사결정으로 연결합니다.
+</p>
 
-현실의 문제를 데이터 기반으로 정의하고, 예측 모델과 분석 결과를 실제 의사결정으로 연결하는 데 관심이 있습니다.
-
----
+<p align="center">
+  <a href="https://daniel5781.github.io/7Eleven_MD_Dashboard/">대시보드 체험</a> ·
+  <a href="https://github.com/daniel5781/khu-subapp">산업연관분석 코드</a> ·
+  <a href="#selected-projects">프로젝트 보기</a>
+</p>
 
 ## Selected Projects
 
-### 01. Food Safety Risk Prediction
-*Machine Learning · Imbalanced Classification · Temporal Validation*
+| 프로젝트 | 해결하려는 문제와 접근 | 공개 자료 |
+| --- | --- | --- |
+| **세븐일레븐 재고 최적화** | 신상품 초도발주 예측·검증과 재고 시뮬레이션을 MD 의사결정 화면으로 연결 | [데모](https://daniel5781.github.io/7Eleven_MD_Dashboard/) · [코드](https://github.com/daniel5781/7Eleven_MD_Dashboard) · [소개](projects/inventory.md) |
+| **산업연관분석** | 산업 간 상호의존성과 파급효과를 Leontief 모형·네트워크로 분석 | [코드](https://github.com/daniel5781/khu-subapp) · [기여와 설계](projects/industrial-network.md) |
+| **LG Aimers** | 투구 전 상황과 선수 이력 기반 제구 성공 확률 예측, 앙상블·확률 보정·제출 검증 | [프로젝트 소개](projects/lg-aimers.md) · 코드 비공개 |
+| **황색포도상구균 검출확률 예측** | 희소한 양성 검사 이력에서 위험도를 추정하고 검사 우선순위 평가 | [프로젝트 소개](projects/food-safety.md) · 코드 비공개 |
 
-**문제:** 비정기적으로 수집된 검사 이력과 희소한 양성 데이터를 활용하여 식품 안전 위험도를 예측하는 문제
+### 재고 예측에서 의사결정까지
 
-- 과거 검사 이력 및 도메인 정보를 활용한 Feature Engineering
-- 기준일에 이용 가능한 정보만 사용하도록 시계열 데이터 누수 방지
-- 극심한 클래스 불균형을 고려한 모델 학습 및 평가
-- Average Precision, Recall, 검사 효율을 중심으로 모델 비교
+**세븐일레븐 팀 프로젝트에서 PM, 데이터 전처리, 예측 모델 검증, 재고 시뮬레이션, 대시보드 구현을 담당했습니다.**
 
-`Python` `LightGBM` `CatBoost` `Feature Engineering`
+예약 수요와 상품·센터별 특성을 검토하고, 추천 발주량을 사용자가 조정하는 흐름으로 연결했습니다.
+[공개 데모](https://daniel5781.github.io/7Eleven_MD_Dashboard/)에서는 상품 상세, 예약 추이, 추천량 검토, 센터별 배분과 과거 상품 조회를 체험할 수 있습니다.
+공개 화면의 모든 상품·센터·수치는 합성 예시이며 실제 모델 성능이나 운영 실적을 뜻하지 않습니다.
+최종 대시보드의 [팀 원본과 출처](https://github.com/Geonhohoho/7Eleven_MD_Dashboard)를 함께 표기했습니다.
 
-*Private Research / Applied ML Project*
+### 코드로 확인하는 산업연관분석 기여
 
-### 02. Inventory Optimization & Decision Support
-*Business Analytics · Optimization · Simulation*
+공개 팀 프로젝트를 확장하며 분석 로직과 데이터 연계 구조를 개선했습니다.
 
-**문제:** 상품과 물류센터의 특성을 충분히 고려하지 못하는 획일적인 재고 관리 기준 개선
+- **Leontief 급수 기반 네트워크 구성** — [구현 커밋](https://github.com/daniel5781/khu-subapp/commit/b3cea1690d8621b363185f419390727fa3f967ae)
+- **미국 BEA 데이터 모드와 수집 경로 연계** — [구현 커밋](https://github.com/daniel5781/khu-subapp/commit/d0fb47186ef5712e766545ae6ba7e68ed4711132)
+- **분석 라이브러리 모듈 분리** — [구현 커밋](https://github.com/daniel5781/khu-subapp/commit/5bdd59f838855c06b6811d9447c68483a7085198)
 
-- 상품군별 재발주 주기를 반영한 적정재고 기준 재설계
-- 물류센터별 판매 및 재고 소진 패턴 분석
-- 시뮬레이션을 통한 재고 운영 개선 가능성 평가
-- 분석 결과를 실무 의사결정용 대시보드로 구현
+## How I Work
 
-`Python` `Pandas` `Simulation` `Dashboard`
+**문제 정의 → 데이터 전처리 → 검증 → 의사결정 연결**
 
-*Private / Industry Collaboration*
+- 예측 시점에 알 수 있는 정보만 사용하고 시간에 따른 데이터 누수를 점검합니다.
+- 모델 점수와 운영 의사결정 지표를 구분해 평가합니다.
+- 채택한 실험뿐 아니라 효과가 없었던 실험과 재현 조건도 기록합니다.
+- 개인 기여, 팀 결과, 공개 데모의 범위를 구분해 설명합니다.
 
-### 03. Industrial Input–Output & Network Analytics
-*Economic Data Analysis · Network Science · Data Application*
+## Toolkit
 
-**문제:** 산업연관표를 활용하여 산업 간 상호의존성과 경제적 파급효과를 분석하는 도구 개발
+| 영역 | 도구 |
+| --- | --- |
+| Data | Python · SQL · pandas · NumPy |
+| Modeling | scikit-learn · LightGBM · CatBoost · FT-Transformer |
+| Analysis & Applications | Streamlit · NetworkX · Matplotlib · React |
+| Workflow | Git · Jupyter · 실험 기록 · 시계열 검증 |
 
-- Leontief 역행렬 및 산업 연쇄효과 분석
-- 산업 네트워크 구성 및 중심성 지표 분석
-- 미국 BEA 데이터 연계와 다국가 자료 처리 기능 확장
-- 데이터 처리 모듈 개선 및 분석 파이프라인 구조화
+<details>
+<summary><b>Other Work</b></summary>
 
-`Python` `Streamlit` `NetworkX` `NumPy`
+- **LLM-based Financial Assistant** — 금융 도메인 질의응답 프로토타입, GPT-3 fine-tuning과 RAG 접근 비교.
+- **Weather & Traffic Accident Prediction** — 기상·교통 데이터를 결합한 지역별 사고 패턴 분석과 예측 실험.
+- **Generative AI Advertisement Prototype** — 생성형 이미지, 객체 탐지, 텍스트 배치 영역 탐색을 결합한 광고 제작 실험.
 
-**[View Repository](https://github.com/daniel5781/khu-subapp)** · Team Project
+</details>
 
-### 04. LLM-based Financial Assistant
-*Natural Language Processing · Fine-tuning · Retrieval-Augmented Generation*
-
-**문제:** 금융 도메인의 전문 정보를 자연어로 제공하는 AI 기반 지원 시스템의 가능성 검토
-
-- GPT-3 기반 Fine-tuning 방식 실험
-- Retrieval-Augmented Generation(RAG)과의 접근 방식 비교
-- 금융 도메인 질의응답 프로토타입 개발 및 검토
-
-`Python` `LLM` `Fine-tuning` `RAG`
-
-*Private / Industry Collaboration*
-
----
-
-## Other Projects
-
-**Weather & Traffic Accident Prediction**
-
-기상 및 교통 데이터를 결합하여 지역별 교통사고 발생 패턴을 분석하고 예측 모델을 실험했습니다.
-
-**Generative AI Advertisement Prototype**
-
-생성형 이미지, 객체 탐지, 텍스트 배치 영역 탐색을 결합한 광고 제작 프로토타입을 실험했습니다.
-
----
-
-## Technical Skills
-
-- **Languages:** Python, SQL
-- **Data Analysis:** pandas, NumPy, scikit-learn
-- **Machine Learning:** LightGBM, CatBoost, TensorFlow
-- **Visualization & Applications:** Streamlit, Matplotlib, NetworkX
-- **Tools:** Git, Jupyter Notebook
-
----
-
-*일부 기업 협력 프로젝트의 원본 코드와 데이터는 공개하지 않습니다. 공개된 설명은 일반적인 문제 정의와 기술적 접근에 한정합니다.*
-
-Building reliable analyses and practical data-driven solutions.
-</div>
+<sub>기업 협력·대회·연구 프로젝트의 원자료와 비공개 코드는 공개하지 않습니다. 공개 소개는 문제 정의, 기술적 접근, 개인 기여와 검증 관점에 한정합니다.</sub>
