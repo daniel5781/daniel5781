@@ -1,10 +1,11 @@
 <p align="center">
-  <img src="assets/profile-banner.svg" alt="Daniel — Data Science & Machine Learning. From data to decisions." width="100%" />
+  <img src="assets/profile-banner.svg" alt="Daniel — Data Science & Machine Learning. From domain to model." width="100%" />
 </p>
 
 <p align="center">
-  <b>Predictive Modeling · Temporal Validation · Decision Support</b><br />
-  식품 안전·유통 재고·스포츠 데이터를 활용해 확률과 수량을 예측합니다.
+  <b>데이터에서 변하는 것과 유지되는 것을 살핍니다.<br />
+  도메인의 맥락을 모델이 배울 수 있도록 설계합니다.</b><br /><br />
+  <sub>식품 안전·유통 재고·스포츠 데이터를 활용해 확률과 수량을 예측합니다.</sub>
 </p>
 
 <p align="center">

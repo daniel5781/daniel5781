@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1280" height="320" viewBox="0 0 1280 320" role="img" aria-labelledby="title desc">
-  <title id="title">Daniel Oh — Data Science &amp; Machine Learning</title>
-  <desc id="desc">From data to decisions. A navy and mint banner with connected data points.</desc>
+  <title id="title">Daniel — Data Science &amp; Machine Learning</title>
+  <desc id="desc">From domain to model. Understanding change and stability, then shaping how models learn.</desc>
   <defs>
     <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#101c32"/><stop offset="1" stop-color="#162e42"/></linearGradient>
     <linearGradient id="accent"><stop stop-color="#64e8c1"/><stop offset="1" stop-color="#65bdf6"/></linearGradient>
@@ -19,9 +19,9 @@
   </g>
   <rect x="58" y="54" width="44" height="5" rx="2.5" fill="#75e6c9"/>
   <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif">
-    <text x="58" y="102" fill="#8de8cd" font-size="15" font-weight="600" letter-spacing="4">FROM DATA TO DECISIONS</text>
+    <text x="58" y="102" fill="#8de8cd" font-size="15" font-weight="600" letter-spacing="4">FROM DOMAIN TO MODEL</text>
     <text x="55" y="176" fill="#f5f8fc" font-size="66" font-weight="750" letter-spacing="-2">Daniel</text>
     <text x="58" y="218" fill="#c8d7e5" font-size="25" font-weight="500">Data Science &amp; Machine Learning</text>
-    <text x="58" y="269" fill="#8ea9bd" font-size="16">Predictive modeling  /  Validation  /  Decision support</text>
+    <text x="58" y="269" fill="#8ea9bd" font-size="16">Change &amp; stability  /  Data representation  /  Model design</text>
   </g>
 </svg>
