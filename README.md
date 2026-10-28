@@ -25,7 +25,7 @@
 
 출시 후 4일간의 센터 → 점포 출고량을 예측하고, 발주 수량별 재고 부담을 비교했습니다.
 팀 프로젝트에서 PM·전처리·모델 검증·재고 시뮬레이션·대시보드 구현에 참여했습니다.
-공개 결과물은 **합성 데이터 모델 예제와 독립된 웹 데모**입니다.
+결과물은 ** 웹 데모**를 참고해 주세요.
 
 [프로젝트 소개](projects/inventory.md) · [모델·검증 코드](https://github.com/daniel5781/7Eleven_MD_Dashboard/tree/main/modeling) · [웹 데모](https://daniel5781.github.io/7Eleven_MD_Dashboard/)
 
@@ -39,9 +39,9 @@
 ### 산업연관분석과 산업 네트워크
 
 산업연관표와 Leontief 모형을 이용한 네트워크 분석 도구입니다.
-BEA 자료 처리, 산업 분류 계층, 분석 모듈 분리에 기여했으며 공개 커밋으로 연결했습니다.
+BEA 자료 처리, 산업 분류 계층, 분석 모듈 분리를 진행하였습니다.
 
-[기능과 기여 근거](projects/industrial-network.md) · [개인 작업 저장소](https://github.com/daniel5781/khu-subapp)
+[기능과 기여](projects/industrial-network.md) · [개인 작업 저장소](https://github.com/daniel5781/khu-subapp)
 
 ## 기술 스택
 
