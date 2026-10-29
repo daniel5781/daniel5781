@@ -45,12 +45,34 @@ BEA 자료 처리, 산업 분류 계층, 분석 모듈 분리를 진행하였습
 
 ## 기술 스택
 
-| 영역 | 도구 |
-| --- | --- |
-| 언어·데이터 처리 | Python · SQL · pandas · NumPy |
-| 모델링 도구 | scikit-learn · LightGBM · CatBoost · PyTorch |
-| 분석·화면 구현 | NetworkX · Matplotlib · Streamlit · React |
-| 개발·실험 | Git · Jupyter |
+**언어·데이터 처리**
+
+<p>
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&amp;logo=python&amp;logoColor=FFD43B" alt="Python" height="28" />
+  <img src="https://img.shields.io/badge/pandas-150458?style=for-the-badge&amp;logo=pandas&amp;logoColor=white" alt="pandas" height="28" />
+  <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&amp;logo=numpy&amp;logoColor=white" alt="NumPy" height="28" />
+</p>
+
+**모델링 도구**
+
+<p>
+  <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&amp;logo=scikitlearn&amp;logoColor=white" alt="scikit-learn" height="28" />
+  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&amp;logo=pytorch&amp;logoColor=white" alt="PyTorch" height="28" />
+</p>
+
+**분석·화면 구현**
+
+<p>
+  <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&amp;logo=streamlit&amp;logoColor=white" alt="Streamlit" height="28" />
+  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&amp;logo=react&amp;logoColor=61DAFB" alt="React" height="28" />
+</p>
+
+**개발·실험**
+
+<p>
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&amp;logo=git&amp;logoColor=white" alt="Git" height="28" />
+  <img src="https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&amp;logo=jupyter&amp;logoColor=white" alt="Jupyter" height="28" />
+</p>
 
 <details>
 <summary><b>기타 경험</b></summary>
